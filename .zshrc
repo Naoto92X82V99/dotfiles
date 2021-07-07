@@ -7,3 +7,6 @@ compinit
 
 # 大文字、小文字の区別を行わない
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# プロンプトの表示を変更
+export PS1="%~ "
