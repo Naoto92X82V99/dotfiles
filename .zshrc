@@ -10,3 +10,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # プロンプトの表示を変更
 export PS1="%~ "
+
+# flutterのpathを通す
+export PATH="$PATH:/usr/local/flutter/bin"
