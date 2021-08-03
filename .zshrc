@@ -1,5 +1,6 @@
 alias ll='ls -al'
 alias rm='trash'
+alias relogin='exec $SHELL -l'
 
 # 補完機能を使用する
 autoload -U compinit
